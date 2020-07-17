@@ -96,3 +96,19 @@ address{font-style: normal; font-weight: normal;}
 .faicon-github:hover{background-color: black !important;}
 .faicon-instagram:hover{background-color: #db1270 !important;}
 .faicon-twitter:hover{background-color: #00acee !important;}
+#header{
+    height:6rem;
+}
+#header h1{font-size:2.6rem; letter-spacing: 2px; padding-top: 0.9rem;}
+#header .t3{font-family: Ubuntu,sans-serif; font-weight: 600;}
+#header a:hover{cursor: pointer; color: #28a745 !important;}
+#header img{max-height: 5rem;}
+
+@media screen and(max-width:992px){
+    #header img{max-height: 3rem;}
+    #header t3{font-size: 1.5rem;}
+    #header .flex-row{flex-direction: column !important;}
+}
+@media screen and(max-width:576px){
+    #header t3{font-size: 1rem;}
+}
