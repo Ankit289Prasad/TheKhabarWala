@@ -112,3 +112,29 @@ address{font-style: normal; font-weight: normal;}
 @media screen and(max-width:576px){
     #header t3{font-size: 1rem;}
 }
+
+/*mangal cus starts here*/
+
+@media (max-width:768px){
+    .mangalcush{
+        font-size: 38px;
+        text-align: center;
+        margin-bottom: 10px;
+        
+    }
+    .mangalcush2{
+        margin-top: -20px;
+    }
+    .wrapper{
+        height: 199px;
+        width: 100%;
+    }
+    .mangal{
+        margin-top: 15px
+    }
+    .liku{
+        padding-left: 20px;
+    }
+    
+    
+}
