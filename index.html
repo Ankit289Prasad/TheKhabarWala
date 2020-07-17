@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta name="author" content="Ankit,Mangaldeep">
-    <meta name="description" content="Create Responsive Animated Website using HTML5, CSS3, Bootstrap & JavaScript">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="theme-color" content="rgba(22, 21, 63, 0.952)">
@@ -16,6 +16,7 @@
 	<script type="text/javascript" src="scripts/wow.min.js"></script>
 	<script type="text/javascript">new WOW().init();</script>
     <link href="styles/layout.css" rel="stylesheet" type="text/css">
+    <link href="styles/mobile.css" rel="stylesheet" type="text/css">
 </head>
 
 <body id="top" data-spy="scroll" data-target=".navbar" data-offset="60">
@@ -24,33 +25,8 @@
         <div class="container">
             <nav class="navbar navbar-expand-md navbar-light bg-white p-0">
                 <div class="collapse navbar-collapse justify-content-between" id="secondaryNavbar">
-                    <ul class="navbar-nav">
-                        <li class="nav-item px-2">
-                            <a href="#" class="nav-link">
-                                <p class="m-0"><small>HOME</small></p>
-                            </a>  
-                        </li>
-                        <li class="nav-item px-2">
-                            <a href="#" class="nav-link">
-                                <p class="m-0"><small>E-PAPER</small></p>
-                            </a>  
-                        </li>
-                        <li class="nav-item px-2">
-                            <a href="#" class="nav-link">
-                                <p class="m-0"><small>SPORTS</small></p>
-                            </a>  
-                        </li>
-                        <li class="nav-item px-2">
-                            <a href="#" class="nav-link">
-                                <p class="m-0"><small>ENTERTAINMENT</small></p>
-                            </a>  
-                        </li>
-                        <li class="nav-item px-2">
-                            <a href="#" class="nav-link">
-                                <p class="m-0"><small>TRENDING</small></p>
-                            </a>  
-                        </li>
-                    </ul>
+                    <p><b>Time:</b> 00:00:00    <b>  Date:</b> 01/01/2000</p>
+                    <!--?php echo(strftime("%m/%d/%Y %H:%M")); ?></p-->
                     <ul class="d-flex social-icon">
                         <li>
                             <a href="#" class="faicon-facebook rounded-circle">
@@ -81,44 +57,27 @@
                 </div>
             </nav>
         </div>
-        <!-- <div class="wrapper px-4 text-secondary bg-white" id="header">
+        <div class="wrapper px-4 text-secondary bg-white" id="header">
             <header class="d-flex">
                 <h1>
-                    <div class="d-flex row pt-1 t3 flex-row">
-                        <a href="index.html" class="col-sm-7 justify-content-center">
-                            <b>The Khabarwala</b><span  class="text-success"> <small>हर खबर आपतक</small></span>
-                        </a>
-                            <img src="./gallery/topad.png" alt="Advertisement" class="col-sm-5 pb-2">
-                    </div>
-                </h1>
-            </header>
-        </div> -->
-        <div class="wrapper px-4 text-secondary bg-white " id="header">
-            <header class="d-flex">
-                <h1>
-                    <div class="d-flex row pt-1 t3 flex-row mangalcush2">
-                       
-                        <a href="index.html" class="col-sm-7 justify-content-center mangal">
-                            <b class="mangalcush">The Khabarwala</b>
-                            <br>
-                            <span  class="text-success"> <small class="mangalcush liku">हर खबर आपतक</small></span>
-                        </a>
-                           
-                            <img src="./gallery/topad.png" alt="Advertisement" class="col-sm-5 pb-2 mangal-img">
+                    <div class="d-flex row pt-0 t3 flex-row">
+                        <img src="./gallery/banner1.png" alt="Advertisement" class="col-md-3 col-12 pb-1 px-2">
+                        <img src="./gallery/banner2.png" alt="Advertisement" class="col-md-3 col-12 pb-1 px-2">
+                            <img src="./gallery/topad.png" alt="Advertisement" class="col-md-6 col-12 pb-1 px-1">
                     </div>
                 </h1>
             </header>
         </div>
-    </div>
+       
     <!--Navbar menu-->
     <div class="wrapper">
         <nav class="navbar navbar-expand-lg navbar-dark bg-secondary p-0" id="mainNavbar">
             <a href="" class="navbar-brand py-2 px-3">
                 <img src="./gallery/logo.png" alt="LOGO" style="height: 32px;">
-            </a>
+            </a><div class="pr-2">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNavbarContent">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+                <span class="navbar-toggler-icon "></span>
+            </button></div>
             <div class="collapse navbar-collapse justify-content-around" id="mainNavbarContent">
                 <ul class="navbar-nav">
                     <li class="nav-item">
@@ -135,6 +94,9 @@
                     </li>
                     <li class="nav-item">
                         <a href="#" class="nav-link px-3">BOLLYWOOD</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link px-3">E-PAPER</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a href="#" class="nav-link px-3 dropdo-toggle" id="navbarDropdown"
