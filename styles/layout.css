@@ -1,0 +1,98 @@
+html{
+    overflow-y:scroll;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+html,body{
+    margin: 0;
+    padding: 0;
+    font-size: 17px;
+    line-height: 1.6em;
+}
+body{
+    color: #cbcbcb;
+    background-color: #4a4e57;
+}
+
+a{
+    color: #dc3545;
+    outline: none;
+    text-decoration: none !important;
+}
+a:active,a:focus{
+    background: transparent;
+}
+nav,body,input,textarea{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.wrapper{
+    display: block;
+    position: relative;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    word-wrap: break-word;
+}
+
+/*Transition*/
+*,*::before,*::after{
+    transition: all 0.2s ease-in-out;
+    list-style: none;
+}
+
+h1,h2,h3,h4,h5,h6,.heading{
+    font-family: "Fira Code", monospace;
+    margin: 0;
+    line-height: normal;
+    font-weight: normal;
+}
+address{font-style: normal; font-weight: normal;}
+
+.font-xs{font-size: 0.8rem;}
+
+
+#secondaryNavbar .navbar-nav .nav-item{
+    display: flex;
+}
+
+#secondaryNavbar .navbar-nav .nav-item::after{
+    content: "|";
+    margin-left: 10px;
+    align-self: center;
+}
+#secondaryNavbar .navbar-nav .nav-item:last-child::after{
+    margin-left: 0;
+    content: "";
+}
+
+.social-icon{
+    margin:0;
+    padding: 0;
+    list-style: none;
+}
+.social-icon a{
+    display: inline-block;
+    width:36px;
+    height:36px;
+    line-height: 36px;
+    text-align: center;
+    color: #32353c;
+    background-color: #fff;
+}
+
+.social-icon li{
+    display: inline-block;
+    margin: 0 5px 0 0;
+    padding:0;
+    line-height: normal;
+}
+
+.social-icon a:hover{
+    color: #fff !important;
+}
+.faicon-facebook:hover{background-color: #385998 !important;}
+.faicon-youtube:hover{background-color: red !important;}
+.faicon-github:hover{background-color: black !important;}
+.faicon-instagram:hover{background-color: #db1270 !important;}
+.faicon-twitter:hover{background-color: #00acee !important;}
