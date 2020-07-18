@@ -115,6 +115,10 @@ address{font-style: normal; font-weight: normal;}
 
 /*mangal cus starts here*/
 
+.mangal-img{
+    margin-top: 15px;
+}
+
 @media (max-width:768px){
     .mangalcush{
         font-size: 38px;
@@ -136,5 +140,12 @@ address{font-style: normal; font-weight: normal;}
         padding-left: 20px;
     }
     
+    .mangal-img{
+        margin-top: -2px;
+    }
     
+    
+}
+.white-wrap{
+    margin-bottom: 20px;
 }
