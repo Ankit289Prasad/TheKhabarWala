@@ -28,8 +28,6 @@ nav,body,input,textarea{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .wrapper{
-    display: block;
-    position: relative;
     width: 100%;
     margin: 0;
     padding: 0;
@@ -83,9 +81,7 @@ address{font-style: normal; font-weight: normal;}
 .social-icon a:hover{
     color: #fff !important;
 }
-.wrapper{
-    position: inherit;
-}
+
 .faicon-facebook:hover{background-color: #385998 !important;}
 .faicon-youtube:hover{background-color: red !important;}
 .faicon-github:hover{background-color: black !important;}
@@ -110,6 +106,7 @@ address{font-style: normal; font-weight: normal;}
 .dropdown-menu{
     background-color: rgba(121, 121, 121, 0.815);
     width: 100%;
+    margin-top: 0px;
 }
 .dropdown-item{color: white;}
 .dropdown-item:hover{background-color: rgba(63, 63, 63, 0.753); color: #fff;}
