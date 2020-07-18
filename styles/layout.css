@@ -1,35 +1,4 @@
-Skip to content
-Search or jump to…
 
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@liku88 
-Ankit289Prasad
-/
-TheKhabarWala
-Private
-0
-0
-0
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-TheKhabarWala/styles/layout.css
-@Ankit289Prasad
-Ankit289Prasad Progress
-Latest commit a932cd1 7 hours ago
- History
- 2 contributors
-@Ankit289Prasad@liku88
-100 lines (90 sloc)  1.95 KB
   
 html{
     overflow-y:scroll;
@@ -130,15 +99,20 @@ address{font-style: normal; font-weight: normal;}
 #header a:hover{cursor: pointer; color: #28a745 !important;}
 #header img{max-height: 5rem; width: 48rem;}
 
-© 2020 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
+<<<<<<< HEAD
+
+/* chailogo */
+.chailogo{
+    margin-left: 15px;
+/*    width: 15%;*/
+}
+
+.nav-desk{
+    margin-bottom: -0.5px;
+}
+
+
+
+
+=======
+>>>>>>> 0cd9d7b47227f0e72ec4c45392fe152b468016b7
