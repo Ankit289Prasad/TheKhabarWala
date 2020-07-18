@@ -93,10 +93,24 @@ address{font-style: normal; font-weight: normal;}
 @media only screen and (max-width:786px){
 #header{
     height:15.5rem;
-}
+    }
 #mainNavbar{
     margin-top: -140px;
+    }
+#pageintro .heading{font-size: 6rem !important;}
+#pageintro.pl-5{padding-left: 0 !important;}
+
 }
+@media only screen and (max-width:676px){
+    #pageintro .heading{font-size: 5rem !important;}
+    #pageintro.ml-5{padding-left: 0 !important;}
+    #pageintro p,#pageintro .btn{font-size: 1rem !important; margin-left: -20px;}
+}
+@media only screen and (max-width:586px){
+    #pageintro .heading{font-size: 3rem !important; margin-left: -43px;}
+    #pageintro.ml-5{padding-left: 0 !important;}
+    #pageintro .btn{margin-top: 15px !important; margin-left: -30px; margin-right: 30px;}
+    #pageintro p{margin-left: -40px !important;}
 }
 #header h1{font-size:2.4rem; letter-spacing: 2px; padding-top: 0rem;}
 #header .t3{font-family: Ubuntu,sans-serif; font-weight: 600;}
@@ -163,5 +177,4 @@ address{font-style: normal; font-weight: normal;}
     z-index: -1;
     content: "";
 }
-
 
