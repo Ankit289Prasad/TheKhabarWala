@@ -99,12 +99,24 @@ address{font-style: normal; font-weight: normal;}
 #header a:hover{cursor: pointer; color: #28a745 !important;}
 #header img{max-height: 5rem; width: 48rem;}
 
+#mainNavbar.navbar .nav-item:hover{
+    background-color: rgba(220, 53, 69, 0.8);
+}
+#mainNavbar.navbar .active{background-color: #dc3545;}
+#mainNavbar a.nav-link{padding:1.3rem 0.5rem;}
 
+#mainNavbar.navbar-dark .navbar-nav .nav-link:focus,
+#mainNavbar.navbar-dark .navbar-nav .nav-link:hover{color: #fff;}
+.dropdown-menu{
+    background-color: rgba(121, 121, 121, 0.815);
+    width: 100%;
+}
+.dropdown-item{color: white;}
+.dropdown-item:hover{background-color: rgba(63, 63, 63, 0.753); color: #fff;}
 
 /* chailogo */
 .chailogo{
     margin-left: 15px;
-/*    width: 15%;*/
 }
 
 .nav-desk{
