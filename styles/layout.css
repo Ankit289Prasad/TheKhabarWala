@@ -1,3 +1,36 @@
+Skip to content
+Search or jump to…
+
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@liku88 
+Ankit289Prasad
+/
+TheKhabarWala
+Private
+0
+0
+0
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+TheKhabarWala/styles/layout.css
+@Ankit289Prasad
+Ankit289Prasad Progress
+Latest commit a932cd1 7 hours ago
+ History
+ 2 contributors
+@Ankit289Prasad@liku88
+100 lines (90 sloc)  1.95 KB
+  
 html{
     overflow-y:scroll;
     overflow-x: hidden;
@@ -6,8 +39,8 @@ html{
 html,body{
     margin: 0;
     padding: 0;
-    font-size: 17px;
-    line-height: 1.6em;
+    font-size: 14px;
+
 }
 body{
     color: #cbcbcb;
@@ -50,24 +83,13 @@ h1,h2,h3,h4,h5,h6,.heading{
 address{font-style: normal; font-weight: normal;}
 
 .font-xs{font-size: 0.8rem;}
-
-
-#secondaryNavbar .navbar-nav .nav-item{
-    display: flex;
-}
-
-#secondaryNavbar .navbar-nav .nav-item::after{
-    content: "|";
-    margin-left: 10px;
-    align-self: center;
-}
-#secondaryNavbar .navbar-nav .nav-item:last-child::after{
-    margin-left: 0;
-    content: "";
+.container{
+    position: relative;
+    height: inherit;
 }
 
 .social-icon{
-    margin:0;
+    margin-top:5px;
     padding: 0;
     list-style: none;
 }
@@ -83,7 +105,8 @@ address{font-style: normal; font-weight: normal;}
 
 .social-icon li{
     display: inline-block;
-    margin: 0 5px 0 0;
+    font-size: 18px !important;
+    margin: 0 9px 0 0;
     padding:0;
     line-height: normal;
 }
@@ -91,61 +114,31 @@ address{font-style: normal; font-weight: normal;}
 .social-icon a:hover{
     color: #fff !important;
 }
+.wrapper{
+    position: inherit;
+}
 .faicon-facebook:hover{background-color: #385998 !important;}
 .faicon-youtube:hover{background-color: red !important;}
 .faicon-github:hover{background-color: black !important;}
 .faicon-instagram:hover{background-color: #db1270 !important;}
 .faicon-twitter:hover{background-color: #00acee !important;}
 #header{
-    height:6rem;
+    height:5.5rem;
 }
-#header h1{font-size:2.6rem; letter-spacing: 2px; padding-top: 0.9rem;}
+#header h1{font-size:2.4rem; letter-spacing: 2px; padding-top: 0rem;}
 #header .t3{font-family: Ubuntu,sans-serif; font-weight: 600;}
 #header a:hover{cursor: pointer; color: #28a745 !important;}
-#header img{max-height: 5rem;}
+#header img{max-height: 5rem; width: 48rem;}
 
-@media screen and(max-width:992px){
-    #header img{max-height: 3rem;}
-    #header t3{font-size: 1.5rem;}
-    #header .flex-row{flex-direction: column !important;}
-}
-@media screen and(max-width:576px){
-    #header t3{font-size: 1rem;}
-}
-
-/*mangal cus starts here*/
-
-.mangal-img{
-    margin-top: 15px;
-}
-
-@media (max-width:768px){
-    .mangalcush{
-        font-size: 38px;
-        text-align: center;
-        margin-bottom: 10px;
-        
-    }
-    .mangalcush2{
-        margin-top: -20px;
-    }
-    .wrapper{
-        height: 199px;
-        width: 100%;
-    }
-    .mangal{
-        margin-top: 15px
-    }
-    .liku{
-        padding-left: 20px;
-    }
-    
-    .mangal-img{
-        margin-top: -2px;
-    }
-    
-    
-}
-.white-wrap{
-    margin-bottom: 20px;
-}
+© 2020 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
