@@ -14,13 +14,81 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="styles/animate.min.css">
 	<script type="text/javascript" src="scripts/wow.min.js"></script>
-	<script type="text/javascript">new WOW().init();</script>
+    <script type="text/javascript">new WOW().init();</script>
+   <script type="text/javascript" src="scripts/modals.js"></script>
     <link href="styles/layout.css" rel="stylesheet" type="text/css">
     <link href="styles/mobile.css" rel="stylesheet" type="text/css">
 </head>
 
 <body id="top" data-spy="scroll" data-target=".navbar" data-offset="60">
     <!--Addition links and social icons-->
+<!-- Modal-article1 -->
+    <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title modal-t" id="exampleModalLongTitle">Modal title</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body" id="modal-article1">
+             Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, recusandae atque? Labore necessitatibus voluptatum sint aliquam facere quos beatae molestiae doloremque placeat dolorem nam tempora voluptatem ducimus harum earum, veritatis adipisci repellat, consectetur amet optio pariatur praesentium? Quas ullam et, tempora quibusdam sapiente in facere porro officiis doloremque iste explicabo?
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary btn-cus" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+<!-- Modal-article1 ends here -->
+
+<!-- Modal-article2 -->
+<div class="modal fade" id="exampleModalLong1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title modal-t" id="exampleModalLongTitle">Modal title 2</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body" id="modal-article1">
+         Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, recusandae atque? Labore necessitatibus voluptatum sint aliquam facere quos beatae molestiae doloremque placeat dolorem nam tempora voluptatem ducimus harum earum, veritatis adipisci repellat, consectetur amet optio pariatur praesentium? Quas ullam et, tempora quibusdam sapiente in facere porro officiis doloremque iste explicabo?
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- Modal-article2 ends here -->
+
+<!-- Modal-article3 -->
+<div class="modal fade" id="exampleModalLong2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title modal-t" id="exampleModalLongTitle">Modal title 3</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body" id="modal-article1">
+         Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, recusandae atque? Labore necessitatibus voluptatum sint aliquam facere quos beatae molestiae doloremque placeat dolorem nam tempora voluptatem ducimus harum earum, veritatis adipisci repellat, consectetur amet optio pariatur praesentium? Quas ullam et, tempora quibusdam sapiente in facere porro officiis doloremque iste explicabo?
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+         
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- Modal-article3 ends here -->
+
+
+
     <div class="wrapper bg-white border" id="home">
         <div class="container">
             <nav class="navbar navbar-expand-md navbar-light bg-white p-0">
@@ -155,30 +223,24 @@
                             <article>
                                 <i class="fas fa-heart"></i>
                                 <h6 class="heading">First</h6>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In quo delectus, eligendi cum ducimus molestias animi fugit inventore itaque, facere veniam cupiditate eius quos vel dicta, laudantium totam nostrum nemo?[&hellip;]</p>
+                                <p id="para">Lorem ipsum dolor
+                                     sit amet consectetur
+                                      adipisicing elit.
+                                       In quo delectus,
+                                        eligendi cum ducimus 
+                                        molestias animi fugit
+                                         inventore itaque, facere
+                                          veniam cupiditate eius quos
+                                           vel dicta, laudantium totam nostrum
+                                            nemo?[&hellip;]</p>
                                 <footer class="mt-4">
-                                    <button class="btn btn-danger" data-target="#article1Modal" data-toggle="modal">Read More</button>
+                                    <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#exampleModalLong">
+                                        Read more
+                                      </button>
                                 </footer>
                             </article>                        
                         </li>
 
-                      <div class="modal" id="article1Modal" tabindex="-1">
-                       <div class="modal-dialog">
-                           <div class="modal-content">
-                               <div class="modal-header">
-                                   <button class="close" data-dismiss="modal">&times;</button>
-                                   <h4 class="modal-title">Article 1</h4>
-                               </div>
-                               <div class="modal-body">
-                                   Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus maxime eius nobis placeat esse necessitatibus suscipit, exercitationem consectetur impedit rem sunt aperiam, quisquam adipisci dolores officia deleniti voluptates corrupti hic!
-                               </div>
-                               <div class="modal-footer">
-                                <button type="button" class="btn btn-primary">Save changes</button>
-                              </div>
-                           </div>
-                       </div>
-
-                      </div>
 
 
                         <li class="col-md-4 pt-5 pr-5">
@@ -187,7 +249,9 @@
                                 <h6 class="heading">Second</h6>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In quo delectus, eligendi cum ducimus molestias animi fugit inventore itaque, facere veniam cupiditate eius quos vel dicta, laudantium totam nostrum nemo?[&hellip;]</p>
                                 <footer class="mt-4">
-                                    <a href="#" class="btn btn-danger">Read More</a>
+                                    <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#exampleModalLong1">
+                                        Read more
+                                      </button>
                                 </footer>
                             </article>                        
                         </li>
@@ -197,7 +261,9 @@
                                 <h6 class="heading">Third</h6>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In quo delectus, eligendi cum ducimus molestias animi fugit inventore itaque, facere veniam cupiditate eius quos vel dicta, laudantium totam nostrum nemo?[&hellip;]</p>
                                 <footer class="mt-4">
-                                    <a href="#" class="btn btn-danger">Read More</a>
+                                    <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#exampleModalLong2">
+                                        Read more
+                                      </button>
                                 </footer>
                             </article>                        
                         </li>
