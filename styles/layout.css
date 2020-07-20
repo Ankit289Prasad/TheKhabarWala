@@ -308,3 +308,5 @@ img{
 }
 .img-hover:hover::before{background: rgba(0,0,0,0.5); opacity: 1;}
 .img-hover:hover::after{color: #fff; opacity: 1;}
+
+#body-footer{background-color: #32353c;}
