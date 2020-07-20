@@ -99,7 +99,7 @@ img{
 .faicon-facebook:hover{background-color: #385998 !important;}
 .faicon-youtube:hover{background-color: red !important;}
 .faicon-github:hover{background-color: black !important;}
-.faicon-instagram:hover{background-color: #db1270 !important;}
+.faicon-instagram:hover{background-color: #f2003c !important;}
 .faicon-twitter:hover{background-color: #00acee !important;}
 #header{
     height:5.5rem;
@@ -392,3 +392,44 @@ img{
 
 #backtotop.visible{visibility: visible; opacity: 0.6;}
 #bactotop:hover{opacity: 1;}
+
+/*Stick social icons*/
+
+#sticky-social-icon .float-sticky-bar>li{
+    background-color: #222;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding: 4px 5px;
+    width: 150px;
+    position: fixed;
+    z-index: 999;
+    transition: all 0.5s ease;
+    display: flex;
+    justify-content: flex-end;
+    left: -105px;
+}
+
+#sticky-social-icon .fab{
+    font-size: 20px;
+    color: #fff;
+    padding: 10px 0 10px 10px;
+    width: 35px;
+    margin-left: 8px;
+}
+
+#sticky-social-icon .float-sticky-bar>li:hover{
+    left: 0;
+}
+#sticky-social-icon .float-sticky-bar>li>a{
+    color: #fff !important;
+    text-decoration: none;
+    text-align: center;
+    line-height: 45px !important;
+    vertical-align: top !important;
+}
+
+#sticky-social-icon .position-fb{top:160px}
+#sticky-social-icon .position-in{top:212px}
+#sticky-social-icon .position-tw{top:264px}
+#sticky-social-icon .position-yt{top:316px}
+#sticky-social-icon .position-gt{top:368px}
