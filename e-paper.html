@@ -68,11 +68,9 @@
             <header class="d-flex">
                 <h1>
                     <div class="d-flex row pt-0 t3 flex-row">
-                        <img src="./gallery/banner1.png" alt="Advertisement"
-                            class="col-md-3 col-12 pb-1 px-2 img-mobile1">
-                        <img src="./gallery/banner2.png" alt="Advertisement"
-                            class="col-md-3 col-12 pb-1 px-2 img-mobile2">
-                        <img src="./gallery/topad.png" alt="Advertisement" class="col-md-6 col-12 pb-1 px-1">
+                        <img  src="./gallery/banner1.png" alt="Advertisement" class="col-md-3 col-12 pb-1 px-2 img-mobile1 wow bounce" data-wow-delay="0.5s">
+                        <img src="./gallery/banner2.png" alt="Advertisement" class="col-md-3 col-12 pb-1 px-2 img-mobile2 wow bounce" data-wow-delay="1s">
+                            <img src="./gallery/topad.png" alt="Advertisement" class="col-md-6 col-12 pb-1 px-1">
                     </div>
                 </h1>
             </header>
@@ -81,7 +79,9 @@
     <div class="container">
         <div class="content-wrapper border border-light rounded" style="top: 0px;">
 
-
+            <div class="container">
+                <embed src="1841012103_Ankit_Prasad_CSE-D.pdf" type="application/pdf" width="100%" height="800px">
+            </div>
             <!--Footer-->
 
             <div class="wrapper text-grey p-5" id="body-footer">
@@ -104,7 +104,7 @@
                             </li>
                         </ul>
 
-                        <ul class=" social-icon pt-3 pl-5">
+                        <ul class=" social-icon pt-3 pl-5 wow shake" data-wow-delay="0.5s">
                             <li>
                                 <a href="#" class="faicon-facebook rounded-circle">
                                     <i class="fab fa-facebook"></i>
@@ -143,7 +143,7 @@
                                 <input type="text" name="Name" class="mb-3" placeholder="Full Name" required>
                                 <input type="email" required class="mb-3" name="Email" placeholder="Email">
                                 <textarea id="subject" name="subject" class="mt-6"
-                                    placeholder="Write something.."></textarea>
+                                    placeholder="Write something.." required></textarea>
                                 <button class="submit btn btn-danger">SUBMIT</button>
                             </fieldset>
                         </form>
