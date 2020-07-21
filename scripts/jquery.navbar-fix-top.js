@@ -1,4 +1,4 @@
-var nav = $('.navbar.navbar-dark');
+var nav = $('.nav-mobile');
 var fixedTop = 'fixed-top';
 var headerHeight = $('#header').height();
 

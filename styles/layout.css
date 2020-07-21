@@ -55,6 +55,7 @@ address{font-style: normal; font-weight: normal;}
 
 .btn.btn-danger:hover{background: transparent; border: 1px solid white;}
 
+
 img{
     width: auto; max-width: 100%;
     height: auto; 
@@ -141,18 +142,18 @@ img{
 #header .t3{font-family: Ubuntu,sans-serif; font-weight: 600;}
 #header a:hover{cursor: pointer; color: #28a745 !important;}
 #header img{max-height: 5rem; width: 48rem;}
-
+#mainNavbar{background-color: rgba(59, 58, 58, 0.863);}
 #mainNavbar.navbar .nav-item:hover{
     background-color: rgba(220, 53, 69, 0.8);
 }
 #mainNavbar.navbar .active{background-color: #dc3545;}
 #mainNavbar a.nav-link{padding:1.3rem 0.5rem;}
-
+#mainNavbar.navbar-dark .navbar-nav .nav-link{color: rgb(202, 202, 196);}
 #mainNavbar.navbar-dark .navbar-nav .nav-link:focus,
 #mainNavbar.navbar-dark .navbar-nav .nav-link:hover{color: #fff;}
 .dropdown-menu{
     background-color: rgba(121, 121, 121, 0.815);
-    width: 100%;
+    width: inherit;
     margin-top: 0px;
 }
 .dropdown-item{color: white;}
@@ -332,7 +333,6 @@ img{
     left: 0;
     width: 30px;
     font-size: 16px;
-    
 }
 
 #body-footer input{
@@ -359,6 +359,8 @@ img{
 }
 
 #body-footer input:focus{border-color: #dc3545;}
+
+#copyright{margin-top: -90px;}
 
 #copyright a:hover{color: red;}
 
@@ -406,7 +408,7 @@ img{
     transition: all 0.5s ease;
     display: flex;
     justify-content: flex-end;
-    left: -105px;
+    left: -110px;
 }
 
 #sticky-social-icon .fab{

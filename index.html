@@ -21,71 +21,6 @@
 </head>
 
 <body id="top" data-spy="scroll" data-target=".navbar" data-offset="60">
-    <!--Addition links and social icons-->
-<!-- Modal-article1 -->
-    <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title modal-t" id="exampleModalLongTitle">Modal title</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body" id="modal-article1">
-             Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, recusandae atque? Labore necessitatibus voluptatum sint aliquam facere quos beatae molestiae doloremque placeat dolorem nam tempora voluptatem ducimus harum earum, veritatis adipisci repellat, consectetur amet optio pariatur praesentium? Quas ullam et, tempora quibusdam sapiente in facere porro officiis doloremque iste explicabo?
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-primary btn-cus" data-dismiss="modal">Close</button>
-            </div>
-          </div>
-        </div>
-      </div>
-<!-- Modal-article1 ends here -->
-
-<!-- Modal-article2 -->
-<div class="modal fade" id="exampleModalLong1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title modal-t" id="exampleModalLongTitle">Modal title 2</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body" id="modal-article1">
-         Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, recusandae atque? Labore necessitatibus voluptatum sint aliquam facere quos beatae molestiae doloremque placeat dolorem nam tempora voluptatem ducimus harum earum, veritatis adipisci repellat, consectetur amet optio pariatur praesentium? Quas ullam et, tempora quibusdam sapiente in facere porro officiis doloremque iste explicabo?
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
-          
-        </div>
-      </div>
-    </div>
-  </div>
-<!-- Modal-article2 ends here -->
-
-<!-- Modal-article3 -->
-<div class="modal fade" id="exampleModalLong2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title modal-t" id="exampleModalLongTitle">Modal title 3</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body" id="modal-article1">
-         Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, recusandae atque? Labore necessitatibus voluptatum sint aliquam facere quos beatae molestiae doloremque placeat dolorem nam tempora voluptatem ducimus harum earum, veritatis adipisci repellat, consectetur amet optio pariatur praesentium? Quas ullam et, tempora quibusdam sapiente in facere porro officiis doloremque iste explicabo?
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
-         
-        </div>
-      </div>
-    </div>
-  </div>
-<!-- Modal-article3 ends here -->
 
 
 
@@ -95,7 +30,7 @@
                 <div class="collapse navbar-collapse justify-content-between" id="secondaryNavbar">
                     <p><b>Time:</b> 00:00:00    <b>  Date:</b> 01/01/2000</p>
                     <!--?php echo(strftime("%m/%d/%Y %H:%M")); ?></p-->
-                    <ul class="d-flex social-icon">
+                    <ul class="d-flex social-icon wow rubberBand" data-wow-delay="2s">
                         <li>
                             <a href="#" class="faicon-facebook rounded-circle">
                                 <i class="fab fa-facebook"></i>
@@ -130,8 +65,8 @@
             <header class="d-flex">
                 <h1>
                     <div class="d-flex row pt-0 t3 flex-row">
-                        <img  src="./gallery/banner1.png" alt="Advertisement" class="col-md-3 col-12 pb-1 px-2 img-mobile1">
-                        <img src="./gallery/banner2.png" alt="Advertisement" class="col-md-3 col-12 pb-1 px-2 img-mobile2">
+                        <img  src="./gallery/banner1.png" alt="Advertisement" class="col-md-3 col-12 pb-1 px-2 img-mobile1 wow bounce" data-wow-delay="0.5s">
+                        <img src="./gallery/banner2.png" alt="Advertisement" class="col-md-3 col-12 pb-1 px-2 img-mobile2 wow bounce" data-wow-delay="1s">
                             <img src="./gallery/topad.png" alt="Advertisement" class="col-md-6 col-12 pb-1 px-1">
                     </div>
                 </h1>
@@ -140,7 +75,7 @@
     </div>
         <!--Navbar menu-->
         <div class="wrapper nav-mobile">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-secondary p-0" id="mainNavbar">
+        <nav class="navbar navbar-expand-lg navbar-dark p-0" id="mainNavbar">
             <a href="" class="navbar-brand py-2 px-3">
                 <img src="./gallery/chaime.png" alt="LOGO" style="height: 45px;" class="chailogo">
             </a><div class="pr-2">
@@ -148,27 +83,27 @@
                 <span class="navbar-toggler-icon "></span>
             </button></div>
             <div class="collapse navbar-collapse justify-content-around" id="mainNavbarContent">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a href="#home" class="nav-link px-3">HOME</a>
+                <ul class="navbar-nav ">
+                    <li class="nav-item ">
+                        <a href="#home" data-wow-delay="0.5s" class="nav-link px-3 wow zoomInDown" >HOME</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#articles" class="nav-link px-3">ARTICLES</a>
+                        <a href="#articles" data-wow-delay="1s" class="nav-link px-3 wow zoomInDown">ARTICLES</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#text-over-image" class="nav-link px-3">TRENDING</a>
+                        <a href="#text-over-image" data-wow-delay="1s" class="nav-link px-3 wow zoomInDown">TRENDING</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#sports" class="nav-link px-3">SPORTS</a>
+                        <a href="#sports" data-wow-delay="1s" class="nav-link px-3 wow zoomInDown">SPORTS</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#bollywood" class="nav-link px-3">BOLLYWOOD</a>
+                        <a href="#bollywood" data-wow-delay="1s" class="nav-link px-3 wow zoomInDown">BOLLYWOOD</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#recent" class="nav-link px-3">RECENT FEEDS</a>
+                        <a href="#recent" data-wow-delay="1s" class="nav-link px-3 wow zoomInDown">RECENT FEEDS</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link px-3">E-PAPER</a>
+                        <a href="e-paper.html" data-wow-delay="1s" target="_blank" class="nav-link px-3 wow zoomInDown">E-PAPER</a>
                     </li>
 
                     <!--li class="nav-item">
@@ -176,16 +111,16 @@
                     </li-->
                     
                     <li class="nav-item dropdown py-0">
-                        <a href="#" class="nav-link px-3 dropdo-toggle" id="navbarDropdown"
+                        <a href="#" class="nav-link px-3 dropdo-toggle wow zoomInDown" data-wow-delay="1s" id="navbarDropdown"
                         role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">COVID-19</a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a href="https://covid19india.org" target="blank" class="dropdown-item">INDIA</a>
+                            <a href="https://covid19india.org" target="blank"data-wow-delay="1s" class="dropdown-item wow rubberBand">INDIA</a>
                             <div class="dropdown-divider"></div>
-                            <a href="https://www.worldometers.info/coronavirus/" target="blank" class="dropdown-item">WORLD</a>
+                            <a href="https://www.worldometers.info/coronavirus/" ata-wow-delay="1s" target="blank" class="dropdown-item wow rubberBand">WORLD</a>
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a href="#body-footer" class="nav-link px-3">CONTACT US</a>
+                        <a href="#body-footer" class="nav-link px-3 wow zoomInDown" data-wow-delay="1s">CONTACT US</a>
                     </li>
                 </ul>
             </div>
@@ -598,19 +533,19 @@
                 <i class="fab fa-facebook"></i>
             </li>
             <li class="position-in faicon-instagram">
-                <a href="#">Like Us!</a>
+                <a href="#">Follow!</a>
                 <i class="fab fa-instagram"></i>
             </li>
             <li class="position-tw faicon-twitter">
-                <a href="#">Like Us!</a>
+                <a href="#">Tweet!</a>
                 <i class="fab fa-twitter"></i>
             </li>
             <li class="position-yt faicon-youtube">
-                <a href="#">Like Us!</a>
+                <a href="#">Watch!</a>
                 <i class="fab fa-youtube"></i>
             </li>
             <li class="position-gt faicon-github">
-                <a href="#">Like Us!</a>
+                <a href="#">Join Us!</a>
                 <i class="fab fa-github"></i>
             </li>
         </ul>
