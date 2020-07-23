@@ -97,6 +97,45 @@ img{
     color: #fff !important;
 }
 
+.ticker{
+    display:flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 50px;
+}
+
+.news{
+    width: 80%;
+    background: #cc4444;
+    padding: 0 2%;
+}
+.title{
+    width: 20%;
+    text-align: center;
+    background: #c81c1c;
+    position: relative;
+}
+
+.title:after{
+    position: absolute;
+    content: "";
+    right: -16%;
+    border-left: 15px solid #c81c1c;
+    border-top: 28px solid transparent;
+    border-right: 15px solid transparent;
+    top: 0;
+    border-bottom: 28px solid transparent;
+}
+
+.title h5{
+    font-size: 18px;
+    margin: 8% 0;
+}
+
+.news marquee{
+    font-size: 18px;
+}
+
 .faicon-facebook:hover{background-color: #385998 !important;}
 .faicon-youtube:hover{background-color: red !important;}
 .faicon-github:hover{background-color: black !important;}
