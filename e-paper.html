@@ -68,19 +68,60 @@
             <header class="d-flex">
                 <h1>
                     <div class="d-flex row pt-0 t3 flex-row">
-                        <img  src="./gallery/banner1.png" alt="Advertisement" class="col-md-3 col-12 pb-1 px-2 img-mobile1 wow bounce" data-wow-delay="0.5s">
+                        <img src="./gallery/banner1.png" alt="Advertisement" class="col-md-3 col-12 pb-1 px-2 img-mobile1 wow bounce" data-wow-delay="0.5s">
                         <img src="./gallery/banner2.png" alt="Advertisement" class="col-md-3 col-12 pb-1 px-2 img-mobile2 wow bounce" data-wow-delay="1s">
-                            <img src="./gallery/topad.png" alt="Advertisement" class="col-md-6 col-12 pb-1 px-1">
+                        <img src="./gallery/topad.png" alt="Advertisement" class="col-md-6 col-12 pb-1 px-1">
                     </div>
                 </h1>
             </header>
         </div>
     </div>
+    <div class="wrapper nav-mobile">
+        <nav class="navbar navbar-expand-lg navbar-dark p-0" id="mainNavbar">
+            <a href="" class="navbar-brand py-2 px-3">
+                <img src="./gallery/chaime.png" alt="LOGO" style="height: 45px;" class="chailogo">
+            </a>
+            <div class="pr-2">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNavbarContent">
+                    <span class="navbar-toggler-icon "></span>
+                </button></div>
+            <div class="collapse navbar-collapse justify-content-around" id="mainNavbarContent">
+                <ul class="navbar-nav ">
+                    <li class="nav-item ">
+                        <a href="#home" class="nav-link px-3" onclick="self.close()">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#e-paper" class="nav-link px-3">E-PAPER</a>
+                    </li>
+
+                    <!--li class="nav-item">
+                        <a href="#" class="nav-link px-3">WEATHER</a>
+                    </li-->
+
+                    <li class="nav-item dropdown py-0">
+                        <a href="#" class="nav-link px-3 dropdo-toggle " id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">COVID-19</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a href="https://covid19india.org" target="blank" data-wow-delay="0.5s"
+                                class="dropdown-item wow rubberBand">INDIA</a>
+                            <div class="dropdown-divider"></div>
+                            <a href="https://www.worldometers.info/coronavirus/" data-wow-delay="0.5s" target="blank"
+                                class="dropdown-item wow rubberBand">WORLD</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#body-footer" class="nav-link px-3">CONTACT US</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
     <div class="container">
+        
         <div class="content-wrapper border border-light rounded" style="top: 0px;">
 
-            <div class="container">
-                <embed src="1841012103_Ankit_Prasad_CSE-D.pdf" type="application/pdf" width="100%" height="800px">
+            <div class="container" id="e-paper">
+                <embed src="1841012103_Ankit_Prasad_CSE-D.pdf" type="application/pdf" width="100%" height="500%">
             </div>
             <!--Footer-->
 
