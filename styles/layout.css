@@ -432,7 +432,7 @@ img{
 /*Make it visible when cover is scrolled up using js*/
 
 #backtotop.visible{visibility: visible; opacity: 0.6;}
-#bactotop:hover{opacity: 1;}
+#backtotop:hover{opacity: 1;}
 
 /*Stick social icons*/
 
